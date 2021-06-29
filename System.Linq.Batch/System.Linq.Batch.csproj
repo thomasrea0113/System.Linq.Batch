@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net48;netcoreapp3.1</TargetFrameworks>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <Authors>reat</Authors>
+    <Company>JTEKT</Company>
+    <Description>A set of extensions for executing an async action on a enumerable in batches</Description>
+
+    <Version>1.0.0</Version>
+    <PackageReleaseNotes>ensure action enumerable is enumerated</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Linq.Async" Version="4.1.1" />
+  </ItemGroup>
+
+</Project>
